@@ -30,19 +30,21 @@ The supported data format is described under: https://git-ce.rwth-aachen.de/wzl-
 
 # Usage
 
+Before the HPO algorithm can be applied, a dataset has to be selected.
+
 ## Load Data
 
 1. Run load_data.py, e.g. via the command `python load_data.py`.
-2. Click on "Load data" in the window that pops up and select supported data: ![gui](./figures_for_readme/gui.png)
+2. Click on "Load data" in the window that pops up and select supported data to perform the HPO on: ![gui](./figures_for_readme/gui.png)
 3. Close the window.
 
 ## Hyperparameter Optimization (HPO)
 
-As already explained above, this repository contains four HPO algorithms. The corresponding Python files are called grid_search.py, random_search.py, bayesian_optimization_gp.py, and bayesian_optimization_tpe.py. Although the following steps are explained w.r.t. a grid search, the other algorithms can be applied in the same way.
+As already explained above, this repository contains four HPO algorithms. The corresponding Python files are called grid_search.py, random_search.py, bayesian_optimization_gp.py, and bayesian_optimization_tpe.py.
 
 1. To change the number of tried hyperparameter combinations, the interval of the hyperparameters, the population size, or the number of generations, please have a look at the .py file, and follow the instructions in the comments there.
 2. Run the HPO algorithm, e.g. via the command `python grid_search.py`.
-3. The process of the HPO algorithm is displayed in the terminal. When the algorithm has finished, the hyperparameter combination with the lowest RMSE is displayed. This is the result of the HPO algorithm. 
+3. The process of the HPO algorithm is displayed in the terminal. When the algorithm has finished, the hyperparameter combination ("coeff": importance of formula length, "cxpb": probability of crossover, "mutpb": probability of mutation) with the lowest RMSE ("best loss") is displayed: ![HPO results in terminal](./figures_for_readme/terminal_results.png)
 
 # Example: CT Scan
 
@@ -54,7 +56,7 @@ For the CT scan data after the feature selection (see https://git-ce.rwth-aachen
 - probability of crossover: from 0.5 to 1.0
 - probability of mutation: from 0.2 to 0.5
 
-The result are the following ++optimal hyperparameters**:
+The result are the following **optimal hyperparameters**:
 - importance of formula length: 0.000000162
 - probability of crossover: 0.864293387948539
 - probability of mutation: 0.209602872371429

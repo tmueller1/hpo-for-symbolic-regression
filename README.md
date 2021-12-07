@@ -44,7 +44,7 @@ As already explained above, this repository contains four HPO algorithms. The co
 
 1. To change the number of tried hyperparameter combinations, the interval of the hyperparameters, the population size, or the number of generations, please have a look at the .py file, and follow the instructions in the comments there.
 2. Run the HPO algorithm, e.g. via the command `python grid_search.py`.
-3. The process of the HPO algorithm is displayed in the terminal. When the algorithm has finished, the hyperparameter combination ("coeff": importance of formula length, "cxpb": probability of crossover, "mutpb": probability of mutation) with the lowest RMSE ("best loss") is displayed: ![HPO results in terminal](./figures_for_readme/terminal_results.png)
+3. The process of the HPO algorithm is displayed in the terminal. When the algorithm has finished, the hyperparameter combination ("coeff": importance of formula length, "cxpb": probability of crossover, "mutpb": probability of mutation) with the lowest RMSE ("best loss") is displayed: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![HPO results in terminal](./figures_for_readme/terminal_results.png)
 
 # Example: CT Scan
 

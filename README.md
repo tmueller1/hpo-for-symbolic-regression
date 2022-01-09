@@ -1,5 +1,13 @@
 # Hyperparameter Optimization (HPO) for Symbolic Regression <!-- omit in toc -->
 
+This is the code and the data set necessary to reproduce the results from the the dissertation "Modellbildung mittels Symbolischer Regression zur Messunsicherheitsbestimmung komplexer Messprozesse". 
+
+Author: Mueller, Tobias 
+
+Chair of Production Metrology and Quality Management at the Laboratory for Machine Tools and Production Engineering (WZL) of RWTH Aachen University - Campus Boulevard 30, 52074 Aachen, Germany
+
+Please cite this code or the data set as: BibTex will be added after publication
+
 Given the population size and the number of generations, the symbolic regression has the following three hyperparameters: 
 - importance of formula length
 - probability of crossover

@@ -22,11 +22,11 @@ Given the population size and the number of generations, the symbolic regression
 
 # Installation
 
-The installation procedure here is the same as for the symbolic regression itself. Thus, please follow the installation steps described there: https://git-ce.rwth-aachen.de/wzl-mq-ms-rpc/code/research/mlb-dissertation/symbolic-regression#installation.
+The installation procedure here is the same as for the symbolic regression itself. Thus, please follow the installation steps described there: https://github.com/tmueller1/symbolic-regression#installation.
 
 # Supported Data Format
 
-The supported data format is described under: https://git-ce.rwth-aachen.de/wzl-mq-ms-rpc/code/research/mlb-dissertation/symbolic-regression#supported-data-format.
+The supported data format is described under: https://github.com/tmueller1/symbolic-regression#supported-data-format.
 
 # Usage
 
@@ -48,7 +48,7 @@ As already explained above, this repository contains four HPO algorithms. The co
 
 # Example: CT Scan
 
-For the CT scan data after the feature selection (see https://git-ce.rwth-aachen.de/wzl-mq-ms-rpc/code/research/mlb-dissertation/feature-selection-for-measurement-models), a HPO using the Bayesian optimization via TPE with the following **settings** is conducted:
+For the CT scan data after the feature selection (see https://github.com/tmueller1/Feature-Selection-For-Measurement-Models), a HPO using the Bayesian optimization via TPE with the following **settings** is conducted:
 - number of trials: 54
 - population size: 100
 - number of generations: 100

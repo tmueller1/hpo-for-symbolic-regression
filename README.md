@@ -27,6 +27,7 @@ Given the population size and the number of generations, the symbolic regression
   - [Hyperparameter Optimization (HPO)](#hyperparameter-optimization-hpo)
 - [Example: CT Scan](#example-ct-scan)
 - [Example: Ultrasound](#example-ultrasound)
+- [License](#license)
 
 # Installation
 

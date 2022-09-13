@@ -1,0 +1,12 @@
+deap
+hyperopt
+matplotlib
+numpy
+openpyxl
+pythonds
+random2
+scikit_optimize
+sympy
+xlrd
+xlutils
+xlwt
